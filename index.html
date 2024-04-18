@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------  CSS  --------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <title>WEATHERVERSE</title>
+    <!---------------  IONICONS  --------------------->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="hme">
+    <div class="head-txt">
+        <h2 id="txt">WeatherVerse</h2>
+        <ul>
+            <li><a href="#hme">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Cities</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="login">
+        <a href="#home" id="login-btn">Search</a>
+    </div>
+</header>
+
+<div class="home">
+  <div class="txt">
+    <h2 class="multiple-text"></h2>
+  </div>
+  
+      <div class="container" id="home">
+        <div class="search_box"> 
+          <input type="text" placeholder="Enter a city name" id="city" value="VARANASI" autocomplete="off"/>
+          <button id="search"><ion-icon class="icon" name="search"></ion-icon></button>
+        </div>
+        <div id="show"></div>
+      </div>
+  
+      <div class="about" id="about">
+        <h2 class="abt">ABOUT WEATHERVERSE</h2>
+        <div class="flex">
+          <p> WeatherVerse is a website that provides accurate information on the Weather condition of every city in the Globe. Our Users satisfaction is our No. 1 Priority in the website. We have provided a section for complaints below and every users complaint would be attended too. Our contact information would also be provided in case of emergencies. We hope everyone have a nice Experience.</p>
+          <img src="images/w1.png" class="pimg">
+        </div>
+      </div>
+</div>
+
+  <!-- Newsletter Section Starts -->
+
+  <section class="newsletter">
+
+    <h3>Subscribe For Latest Updates</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo.</p>
+
+    <form action="">
+        <input type="email" placeholder="Enter Your Email" name="" id="">
+        <input type="submit" class="subscribe" value="Subscribe">
+    </form>
+
+  </section>
+
+   <!-- Contact Us -->
+
+   <section class="contact" id="contact">
+
+    <div class="contact-head">
+        <h2>CONTACT <span>US</span></h2>
+        <div class="line"></div>
+    </div>
+
+    <div class="contact-cnt">
+        <div class="contact-txt">
+            <h2>A COPYRIGHT OF:</h2>
+            <h3><span class="mul-txt"></span></h3>
+            <div class="b">
+                <b>Industries</b>
+            </div>
+
+            <div class="contact-sm">
+                <div class="icon"><i class="fas fa-map-marker-alt" id="fa"></i> <span>Lagos, Nigeria.</span></div>
+                <div class="icon"><i class="fas fa-globe" id="fa"></i> <span>www.quantumforce.com</span></div>
+                <div class="icon"><i class="fas fa-phone" id="fa"></i> <span>+2347025626987</span> </div>
+            </div>
+        </div>
+
+        <form action="#">
+          
+            <h3>Get In Touch</h3>
+            <input class="box" type="text" placeholder="Name">
+            <input class="box" type="email" placeholder="Email">
+            <input class="box" type="number" placeholder="Number">
+        
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        
+            <input type="submit" class="btnn-1" value="Send Message">
+            
+        </form>
+    </div>
+
+</section>
+
+ <!-- Footer Section Starts -->
+
+ <section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Our Branches</h3>
+          <a href="#"> <i class="fa fa-map-marker-alt" id="fa"></i>New York</a>
+          <a href="#"> <i class="fa fa-map-marker-alt" id="fa"></i>Nigeria</a>
+          <a href="#"> <i class="fa fa-map-marker-alt" id="fa"></i>Canada</a>
+          <a href="#"> <i class="fa fa-map-marker-alt" id="fa"></i>London</a>
+      </div>
+
+      <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#hme"> <i class="fa fa-arrow-right" id="fa"></i>Home</a>
+          <a href="#about"> <i class="fa fa-arrow-right" id="fa"></i>About</a>
+          <a href="#"> <i class="fa fa-arrow-right" id="fa"></i>Services</a>
+          <a href="#contact"> <i class="fa fa-arrow-right" id="fa"></i>Contact</a>
+      </div>
+
+      <div class="box">
+          <h3>Contact Info </h3>
+          <a href="#"> <i class="fa fa-phone" id="fa"></i> +2347025626987</a>
+          <a href="#"> <i class="fa fa-phone" id="fa"></i> +2348126992753</a>
+          <a href="#"> <i class="fa fa-envelope" id="fa"></i> quantumforce96@gmail.com</a>
+          <a href="#"> <i class="fa fa-map-marker-alt" id="fa"></i> Lagos, Nigeria - 400104</a>
+      </div>
+
+  </div>
+
+  <div class="credit">
+      <i class="fa-brands fa-facebook-f" id="faf"></i>
+      <i class="fa-brands fa-instagram" id="fa"></i>
+      <i class="fa-brands fa-twitter" id="fa"></i>
+      <i class="fa-brands fa-linkedin" id="fa"></i>
+      <p>Copyright QuantumzForce Industries</p>
+  </div>
+
+</section>
+
+<!-- Footer Section Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!---------------  SCRIPT  --------------------->
+   <script src="script.js"></script>  
+   <script src="all.js"></script>
+
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+       // =============== Typed js =================== //
+   const typed = new Typed('.multiple-text', {
+   strings: ['WELCOME TO WEATHERVERSE', 'We Provide Latest Weather Forcast For Every City'],
+   typeSpeed: 100,
+   backSpeed: 100,
+   backDelay: 1000,
+   loop: true
+   })
+   new Typed('.mul-txt', {
+    strings: ['Force', 'Quantum'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+    });  
+
+   </script>
+</body>   
+</html>
